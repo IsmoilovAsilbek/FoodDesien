@@ -1,0 +1,31 @@
+@use "fonts.scss";
+
+$red: #CF1B1B;
+$redBg: #ffffff;
+$purple: #6750A4;
+$purpleBg: #E6DDFF;
+$grey: #CAC4D0;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
